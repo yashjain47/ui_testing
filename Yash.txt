@@ -1,8 +1,0 @@
-automation.log
-images
-Lectures
-LoggingDemo
-__pycache__
-TestFrameWorkDemo
-Testing
-yash.txt

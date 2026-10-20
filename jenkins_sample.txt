@@ -1,9 +1,0 @@
-automation.log
-images
-jenkins_sample.txt
-Lectures
-LoggingDemo
-__pycache__
-TestFrameWorkDemo
-Testing
-yash.txt
