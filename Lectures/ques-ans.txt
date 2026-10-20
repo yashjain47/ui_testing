@@ -1,0 +1,408 @@
+1) What Is Python? What Are The Benefits Of Using Python?
+Python is a programming language with objects, modules, threads, exceptions and automatic memory management. The benefits of pythons are that it is simple and easy, portable, extensible, build-in data structure and it is an open source.
+
+2) How Python Can Be Used In Software Testing?
+To generate test data; parse test results; generate reports; testing API calls etc.
+Python to extract requirements from a Word document.
+For testing tasks automation, setting up environments for tests, extracting performance data, etc…
+Testers use Python extensively in many companies with Selenium for test automation.
+For writing desktop applications used by testers.
+Test data manipulation.
+To build test environment
+Testing with IronPython on .NET
+3) What Python Frameworks Do You Know?
+Framework called Web2py, PAMIE (Python automation Module for I. E.), The py.test framework
+
+4) What Tools That Helps Python Development Do You Know?
+There are good tools for helping Python development such as Notepad++ with the PyNPP plugin and Eclipse with PyDev and PyUnit
+
+5) What Is A “unittest” In Python?
+The unit testing framework of Python is known as “unittest”.  It supports the sharing of setups, automation testing, shutdown code for tests, aggregation of tests into collections, among others.
+
+6) How Python Is Interpreted?
+Python language is an interpreted language. Python program runs directly from the source code. It converts the source code that is written by the programmer into an intermediate language, which is again translated into machine language that has to be executed.
+
+7) What Is The Difference Between “xrange” And “range”?
+“Xrange” returns the “Xrange” object while range returns the “list” irrespective of the size of the “range”.
+
+8) Define “module” And “package”?
+Each Python program file is a “module”, which imports other modules like “objects” and “attributes”.
+A Python program folder is a “package” of “modules”.  A package can have “modules” or “subfolders”.
+
+9) Why my pip is not working when my python is not installed properly?
+The executable path is not set properly.
+
+10) What is the commands for downloading selenium?
+pip install -U selenium
+sudo pip install python
+
+11) How can we know that our python is properly installed or not?
+pip --version
+
+12) How can we implement unittest framework in our scripts?
+By using:- import unittest
+
+13) What are the different locators used?
+Tag name
+Class name
+id
+link text
+Partial link text
+CSS Selector
+XPath
+Name
+
+14) Which is the slowest locator?
+Xpath.
+
+15) Which is the best locator?
+The selection of the best locator depends on the web elements or the ui page we are automating.
+
+16) What is the library to be imported to add keyboard actions to our scripts?
+from selenium.webdriver.common.keys import Keys
+
+17) What is the library to be imported to add mouse actions to our scripts?
+from selenium.webdriver.common.actionchains import ActionChains
+
+18) What is Selenium?
+It's a Automation toolkit
+
+19) What is python?
+It's a scripting language, it works as an interpreter and not a compiler
+
+20) What is a locator?
+It's an element in web page with which the python script would interact through the selenium driver
+
+21) What is a Webdriver?
+Selenium provides a tool to interact with the different web browsers. And they control the operation of the script. Ex: chromedriver, Iedriver, gecko for firefox.
+
+22) Whats XPATH?
+It is the extensible markup language's path finder where the data is stored in XML format like Key value pair
+
+23) Whats the difference between / and // in xpath?
+/ : absolute path // relative path
+
+24) Whats explicit and implicit wait?
+Explicit wait makes the browser wait for a given duration or the condition is true else, it will throw a time exceeded exception
+Implicit wait- will make the browser wait for a defined time and the execution continues
+
+25) What are window handles?
+During the script execution if there is a new window that pops up then they have an address and they have a handle, each handle is listed in the variable handles[]
+
+Ex: To reference those windows driver.switch_window(browser.wondow(handle[0]))
+
+26) What are alerts and how do you handle?
+Alerts are the popup windows that you get when there is notification to the user,
+
+Handling them: alert_var = browser.switch_to_alert()
+
+To dismiss: alert_var.dismiss()
+
+To accept: alert_var.accept() etc
+
+
+27) How to find element by hyperlink?
+Find_element_by_link_text(“text of that hyperlink”).click()
+
+28) How do you write the text in the login form?
+Find_element_by_id(“username_field”).send_keys(“USERNAME”)
+
+29) What is the difference between close() and quit() func of the browser?
+Browser.close() will close the current executing window and you can always switch to other window handles even after closing currently active one.Browser.quit() – will close the complete browser with all the open windows, this func handle and makes sure the processes are closed and terminated correctly without any memory leaks.
+
+30) When webpage is dynamic which element locater do we use to locate an element?
+driver.findElementByXpath()
+
+31) How do we define a function in Python ?
+def functionName: Function body
+
+32) What is an indentation in python?
+Python does not use braces to indicate the start & stop of function. It uses indentation (Whitespaces) to make compiler understand start & stop of function.
+
+33) What is the syntax for “for” loop if we have to run for loop for 3 times?
+for 1 in 5:Print("“)
+
+34) What is WebDriver in selenium?
+WebDriver is a plugin that helps to run selenium test scripts on a web browser.
+
+35)What is the WebDriver used to run selenium script on chrome browser?
+chrome driver
+
+36) What type of languages can we use to write selenium scripts?
+We can use any scripting language.
+
+Get Selenium with Python Online Training
+
+37) Can I use selenium for automation scripting without selenium IDE?
+Yes, selenium can be imported as a module in any other programming platform & write selenium test scripts.
+
+38) What is the use of automation testing?
+It will reduce manpower & it also reduces the time that we spend on doing manual testing every time.
+
+39) Can we do data-driven testing using selenium?
+Yes, bypassing values as parameters during run time.
+
+40) Is selenium helpful for standalone application testing?
+No, Selenium is only used as a test automation tool for web driver applications.
+
+41) Why you prefer to use Python for Selenium?
+Python is not very large or complicated and one of the easy-to-use programming languages. Python APIs permit us to connect to the browser through Selenium. Selenium can convey normal Python commands to various browsers, in spite of the disparities in browser design.
+
+42) What versions are there of Selenium?
+Selenium WebDriver – Used for the automation of tests in web applications.
+
+Selenium IDE – Firefox plugin to record and run tests.
+
+Selenium Grid – Allows you to run Selenium tests in parallel through multiple machines.
+
+43) What programming languages does Selenium Webdriver support?
+Languages supported are: Java, C #, PHP, Ruby, Python.
+
+44) What kind of tests can we perform with Selenium Webdriver?
+We can perform functional and regression tests on web applications.
+
+45) What are the limitations of Selenium?
+The main limitations of selenium are:
+
+You can only perform tests in web applications, not for desktop or mobile. (But other tools are available to automate desktop application GUI tests.)
+
+Captcha and barcode reading cannot be automated with Selenium. Manual testing is needed for them.
+
+The user who is going to perform automatic tests with Selenium Python must have previous knowledge of Python.
+
+46) What are the different types of locators that we can use to search for an element with Selenium?
+The locators that we can use with Selenium are ID, Name, ClassName, TagName, LinkText, and Partial LinkText, XPath, CSS Selector.
+
+47) What is an XPath?
+Xpath (XML Path Language) is a language that allows you to retrieve information from an XML document by defining a syntax to set parts in an XML document, allowing you to navigate through its elements and attributes, as well as allowing basic manipulation of Booleans, numbers, and strings.
+
+48) What is the difference between / and // in an XPath expression?
+We will use / to start the selection from a node in the document. It allows us to create absolute Xpath expressions. We will use // to start the selection from anywhere in the document. It allows us to create relative Xpath expressions.
+
+49) What are the different types of drivers currently supported by Selenium Webdriver?
+The supported drivers are Gecko driver (new from Selenium 3 to create an instance of FirefoxDriver), ChromeDriver, InternetExplorerDriver, SafariDriver, OperaDriver, AndroidDriver, IPhoneDriver, and HtmlUnitDriver.
+
+50) How can we select an option of a dropdown using Selenium Webdriver?
+To be able to select the value of a dropdown using Selenium Webdriver we have to use the Select class, of Webdriver. Through this class we can select a value of a dropdown by its value, its visible text or its index number (position).
+
+51) What is Selenium WebDriver
+Selenium Web driver is set of class which used automate the web application.
+
+52) Is Selenium Web Driver Automation Tool?
+No Selenium web Driver is not an Automation tool, it’s a framework or set of class which is used to automate a web based application.
+
+53) What kind of application best suited for Selenium and why it should be selected.
+It is used to automate web based application and have browser and Platform compatiblity. It supports mulitple language such as java, C# and Python
+
+54) Can Selenium Web Services tested using Selenium?
+No it is used to automate only web based application.
+
+56) How Can we launch Different browser using python.
+For Chrome
+driver=Webdriver.Chrome(“PathofChromedriver”)
+For Firefox
+driver=webdriver.Firefox(“Path of Firefox Driver”)
+for IE
+driver=webdriver.Ie(“Path of IE Driver”)
+
+57) How Synchronization works in Selenium.
+Synchronization is achieved using Implict Wait and Explicit Wait.
+
+58) What is Implicit Wait.
+Implicit Wait is used to default waiting time.
+
+59) What is explicity Wait.
+Explicit Wait is used to halt the execution untill condition is met or when time is elasped.
+
+60) How can enter the values in text box using python.
+driver.find_element(By.ID,”Value”).send_keys(“Value”)
+
+61) How can we check if control enabled or not?
+driver.find_element(By.ID,”Value”).is_enabled(), this specific method will return if true or false.
+
+62) How can we get text of a web element.
+driver.find_element(By.ID,”Value”).text, this specific method will return innertext of the control.
+
+63) Is there any other way of reteriving text of web element.
+driver.find_element(By.ID,”Value”).get_attribute(“InnerText”)
+
+64) What are the different ways of selecting the values in dropdown.
+
+SelectByValue: select the option based on option value.
+selectByVisibleText: selects the option based on visible text.
+selectByIndex: selects the option base on Index
+
+65) what are the different Navigation command in selenium
+it is used to refresh
+driver.refresh()
+it is used to navigate back
+driver.back()
+it is used to move forward
+driver.forward()
+
+66) What is the difference b/w findelement and findelements
+FindElement returns first matching element.
+FindElements returns more than one elements.
+
+67) what is the difference b/w Driver.Close and Diver.quit
+close is used to close the entire browser
+quit is used to close the working tab.
+
+68) Can selenium handle the windows pop up?
+No Selenium can’t handle windows pop Up
+
+69) Can selenium handle WebBased Pop Up.
+Yes it can handle webbased pop up using “driver.switch_to_alert()”
+
+70) How can capture screenshot in selenium.
+driver.get_screenshot_as_file(“filename”) with this method we can take screen shot.
+
+71) What are switch Class in selenium.
+Switch class are used to switch between the different browser,frames and alert pop up.
+
+72) What Action class in selenium
+ACtion class is user facing API to achieve complex user action events.
+
+73) How can we perform drag drop in selenium
+act=ActionChains(driver)
+
+act.drag_and_drop(sourcelement,targetelement), with this method we can perform drag and drop
+
+74) How can mouse hover on a control in selenium.
+act=ActionChains(driver)
+act.move_to_element(element)
+with the above method we mouse hover on element, element argument is web element where we need to mouse hover.
+
+75) Can we move the mouse control to specific cooridinate in selenium
+yes we can, selenium provides Action class in which we can make use of the act.move_by_offset() method to move the mouse control to specific cooridinates.
+
+76) Write a method to read data from webtable for specific row and column index using selenium.
+def GetData(rowIndex,colIndex):
+tablerows=driver.find_element_by_id(“IdValue”).find_elements_by_tag_name(“tr”)
+tableDefinitons=tablerows[rowIndex+1].find_elements_by_tag_name(“td”)
+return tableDefinitons[colIndex].get_attribute(“innerText”)
+
+77) What are Python unitTest default methods
+#Will execute before the execution of each test method
+def setUp(self):
+pass
+
+# will execute once before it executes any test methods
+def setUpClass(cls):
+pass
+#will execute after the execution of each test method
+def tearDown(self):
+pass
+# will execute after it executes all the test methods.
+def tearDownClass(cls):
+pass
+
+78) How will install selenium in python
+We will use PIP command to install selenium
+Pip install selenium Version_Nos
+
+79) What is pass in python.
+pass means no operation to be done
+
+80) How can we convert string to int in python.
+using int(“23″) to convert to int.
+str(23) to convert to string
+
+81) How will you handle exception in python
+try,except and finally key word is used to handle the exception
+
+try:
+#code
+except: #catches the exception
+finally: #executes the block whether any exception is raised or not.
+
+82) What are the different data types supported in python
+integer,string,float and complex are the supported data types in python
+
+83) What is MRO in python
+Method Resolution order is used in inheritance concepts
+where class is inheriting multiple class and in all the parent class, same method is defined. Child class is confused which method to call during run time. So the MRO helps to resolve the issue.
+
+84) How will identify when web element doesn’t have any of the unique locater.
+we can make use of the get_attribute method to get web element from list of web elements.
+
+for control in controls:
+if control.get_attribute(“attributename”)==”attributeValue”:
+#found the matching control
+
+85) How to execute java script in selnium with python
+driver.execute_script(script)
+above method will execute the java script.
+
+86) What are the differnt way entering value TextBox
+find_element_by_id(“val”).send_keys(“valuetoebeentered”)
+other is using Action Class
+act=ActionChains(driver)
+send_keys_to_element(control,”Valuetobeenterd”)
+
+87) What is the use of Xpath
+xpath is used to find the web element in webpage.
+
+88) What are the different exception in selenium
+webdriver exception
+noalertPresent Exception
+nosuchwindow Exception
+nosuchelement exception
+timeoutexception
+
+89) How will perform double click on web element
+act=ActionChains(driver)
+act.double_click(control)
+Above method will be used to double click on the control.
+
+90) How will you handle multiple windows in selenium
+we can use “switch_to_window” method to switch between the multiple windows. where in argument we would be sending the address of the window in the form of string.
+
+91) What is framework?
+Framework defines a set of rules or best practices which we can follow in systematic way to achieve the desired results.
+
+92) What are the different automation Frameworks
+Data Driven Framework
+Key Driven Framework
+Hybrid Framework
+
+93) write a program for the below pattern with only one while loop
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+> a = 0
+bool = True
+While(a<=5):
+if(a<0): break; if(a==5): bool = False if(bool): a = a + 1 else: a = a – 1 print(“*”*a)
+
+94) What is the difference between Assert and Verify?
+Assert it is used to verify the result. If the test case fails then it will stop the execution of the test case there itself and move the control to another test case.
+
+Verify it is also used to verify the result. If the test case fails then it will not stop the execution of that test case.
+
+95) Why should Selenium be selected as a test tool?
+Selenium is free and open source have a large user base and helping communities have cross Browser compatibility (Firefox, chrome, Internet Explorer, Safari etc.) have great platform compatibility (Windows, Mac OS, Linux etc.)
+supports multiple programming languages (Java, C#, Ruby, Python, Pearl etc.) has fresh and regular repository developments supports distributed testing
+
+96) What are the testing types that can be supported by Selenium?
+Selenium supports the following types of testing:
+• Functional Testing
+• Regression Testing
+
+97) When should I use Selenium IDE?
+Selenium IDE is the simplest and easiest of all the tools within the Selenium Package. Its record and playback feature makes it exceptionally easy to learn with minimal acquaintances to any programming language. Selenium IDE is an ideal tool for a naïve user.
+
+98) What is Java implementation of Python popularly know?
+Jython.
+
+99) What is used to create unicode strings in Python?
+Add u before the string u ‘mystring’
+
+100) Explain how python is interpreted.
+Python program runs directly from the source code. Each type Python programs are executed code is required. Python converts source code written by the programmer into intermediate language which is again translated it into the native language machine language that is executed. So Python is an Interpreted language.

@@ -1,0 +1,8 @@
+WARNING:root:Warning -- Sum : 5
+ERROR:root:Error -- Sum : 5
+CRITICAL:root:Critical -- Sum : 5
+DEBUG:root:Debug -- Sum : 5
+INFO:root:Info -- Sum : 5
+WARNING:root:Warning -- Sum : 5
+ERROR:root:Error -- Sum : 5
+CRITICAL:root:Critical -- Sum : 5
